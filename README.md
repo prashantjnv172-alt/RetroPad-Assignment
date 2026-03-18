@@ -34,4 +34,4 @@ The integrity of the design was verified through a three-tier audit:
 * `main_circuit.py`: Main connectivity logic.
 * `retropad_lib.py`: Programmatic component definitions.
 * `RetroPad_skidl.net`: The final verified netlist.
-* `RetroPad_Final.svg`: High-resolution circuit graph visualization.
+* `RetroPad.svg`: High-resolution circuit graph visualization.
