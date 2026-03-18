@@ -24,7 +24,7 @@ The integrity of the design was verified through a three-tier audit:
 3. **Graph Visualization**: Used Graphviz to generate a directed acyclic graph (RetroPad_Final.svg), allowing for a visual spot-check of the voltage dividers and MCU I/O hubs.
 
 ## 5. Development Summary
-* **Total Time Spent**: Approximately 4 hours (Research, Environment Setup, Logic Translation, and Verification).
+* **Total Time Spent**: Approximately 6 hours (Research, Environment Setup, Logic Translation, and Verification).
 * **AI Tools Used**: Gemini (Google).
     * Contribution: Assisted in parsing legacy KiCad S-expression syntax and troubleshooting environment pathing for the Graphviz visualization engine.
 
