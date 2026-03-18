@@ -1,0 +1,1053 @@
+(export 
+  (version "D")
+  (design
+    (source "Retropad_skidl.py")
+    (date "03/18/2026 07:13 PM")
+    (tool "SKiDL (2.2.1)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "Retropad_skidl.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "BTN1")
+      (value "")
+      (description "")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "YuX5eSHhwx")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a1ce858d-963e-5bc5-bd18-ce33cf4f6148"))
+    (comp
+      (ref "BTN2")
+      (value "")
+      (description "")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "BV71pA4yZO")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "70d3979b-43b2-55e6-b093-f9ba21a93274"))
+    (comp
+      (ref "BTN3")
+      (value "")
+      (description "")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "IAuyA7HSkC")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "76cd005b-9271-5e2e-b788-35fff5d731f7"))
+    (comp
+      (ref "C1")
+      (value "0.1uF")
+      (description "")
+      (footprint "Capacitor_SMD:CP_Elec_4x4.5")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Capacitor_SMD:CP_Elec_4x4.5")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "jBhrB1CtYK")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "C_Small"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "85938974-6e21-5949-ad1f-9a5e9fb59ec1"))
+    (comp
+      (ref "D1")
+      (value "")
+      (description "")
+      (footprint "LED_THT:LED_D3.0mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "LED_THT:LED_D3.0mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "wu3TNma5QK")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "LED"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c3c11441-6600-5344-be63-e3f13a22eac7"))
+    (comp
+      (ref "DOWN1")
+      (value "")
+      (description "")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "lZwAFWPmk2")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "353d4c3a-961f-5e4a-8081-ed0ed322c690"))
+    (comp
+      (ref "H1")
+      (value "MountingHole_Pad")
+      (description "")
+      (footprint "MountingHole:MountingHole_4mm_Pad_Via")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "MountingHole:MountingHole_4mm_Pad_Via")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "fYDikHyRuG")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:26"))
+      (libsource
+        (lib "NO_LIB")
+        (part "MountingHole_Pad"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "fe873bed-8ce4-51ac-9836-97ed0b0a0ebb"))
+    (comp
+      (ref "H2")
+      (value "MountingHole_Pad")
+      (description "")
+      (footprint "MountingHole:MountingHole_4mm_Pad_Via")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "MountingHole:MountingHole_4mm_Pad_Via")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "nW2cmL5hAc")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:26"))
+      (libsource
+        (lib "NO_LIB")
+        (part "MountingHole_Pad"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f9e6bc05-c915-5c6c-8c5c-5c45cabc0e9a"))
+    (comp
+      (ref "J1")
+      (value "DB9_Male")
+      (description "")
+      (footprint "Connector_Dsub:DSUB-9_Male_EdgeMount_P2.77mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Connector_Dsub:DSUB-9_Male_EdgeMount_P2.77mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "FIsURBhuVr")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:16"))
+      (libsource
+        (lib "NO_LIB")
+        (part "DB9_Male"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a6d84962-7635-5d10-b654-c2a987518607"))
+    (comp
+      (ref "J2")
+      (value "Conn_01x06_Female")
+      (description "")
+      (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "_U1J34caQ5")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:21"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Conn_01x06_Female"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "8a91ed3f-606c-57ec-97ab-91e56049cd8b"))
+    (comp
+      (ref "JUMP1")
+      (value "")
+      (description "")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "tidKWxUv0v")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a1dbe65a-c928-54be-8e17-e312b9cf3e9b"))
+    (comp
+      (ref "LEFT1")
+      (value "")
+      (description "")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "abfAA1xY7S")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "0638fd6f-ee84-5217-aa3b-53878f24acab"))
+    (comp
+      (ref "R1")
+      (value "1K")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "Pogg6sUGzz")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "cc3feab5-2d85-5dc1-8204-d2bde2dd1979"))
+    (comp
+      (ref "R10")
+      (value "0")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "HNqHxXqixX")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c77f4fef-425e-59d1-bb31-ecdee57a633c"))
+    (comp
+      (ref "R11")
+      (value "0")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "PAkkTm3UVZ")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "cb31cd8a-8f8c-554c-a2df-381f1d990132"))
+    (comp
+      (ref "R2")
+      (value "1K")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "7ScIWnOzqs")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a786952f-bde4-56e2-96ab-474cc9cfd2da"))
+    (comp
+      (ref "R3")
+      (value "330")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "OKwhDN4raG")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "8ba5f008-3041-5dcd-afc1-003c68217f9d"))
+    (comp
+      (ref "R4")
+      (value "1K")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "feFBIHyBwE")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "6fb97455-baa9-5e40-b73e-6fd3d28105f2"))
+    (comp
+      (ref "R5")
+      (value "1K")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "DhlCs8ZW4O")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f9102a9e-18c9-5d40-b1e6-f5454f30a4ab"))
+    (comp
+      (ref "R6")
+      (value "1K")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "cUumUgiqvw")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "46a89934-b127-591f-a846-52aff04fd979"))
+    (comp
+      (ref "R7")
+      (value "0")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "hOVB8hSiNC")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "c0ebb692-4c92-5b4c-9f6d-fd0df3133e34"))
+    (comp
+      (ref "R8")
+      (value "0")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "bTS4t_lKnW")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "8ffa9d85-6d5c-5974-8eb6-0929d9b79a38"))
+    (comp
+      (ref "R9")
+      (value "0")
+      (description "")
+      (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "dcJTbdRep4")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R_US"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "a8fa8401-1056-5937-8c84-6675c6fdfead"))
+    (comp
+      (ref "RAPID1")
+      (value "")
+      (description "")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "U6Jp5Jcpx8")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "4a286363-052c-5369-9084-9d587faad8fe"))
+    (comp
+      (ref "RIGHT1")
+      (value "")
+      (description "")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "VTB_eJCsN7")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "7d637147-94fb-5939-be00-aff560bb4191"))
+    (comp
+      (ref "U1")
+      (value "ATtiny814-SS")
+      (description "")
+      (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "BcYFRkxgIR")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:4"))
+      (libsource
+        (lib "NO_LIB")
+        (part "ATtiny814-SS"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "dadea315-a8da-59ad-a844-cff139c8eb3a"))
+    (comp
+      (ref "UP1")
+      (value "")
+      (description "")
+      (footprint "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+      (fields
+        (field
+          (name "Description"))
+        (field
+          (name "Footprint") "RetroPad:Silicone_Membrane_Pad_11mm_(7.5mm)")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "ldextOVlxE")
+        (field
+          (name "SKiDL Line") "retropad_lib.py:11"))
+      (libsource
+        (lib "NO_LIB")
+        (part "SW_Push"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "cdd60b2a-9bde-5410-aa77-541619fde018")))
+  (nets
+    (net
+      (code 1)
+      (name "+5V")
+      (class "Default")
+      (node
+        (ref "C1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "J1")
+        (pin "7")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "J2")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "U1")
+        (pin "1")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 2)
+      (name "BTN1")
+      (class "Default")
+      (node
+        (ref "BTN1")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "U1")
+        (pin "2")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 3)
+      (name "BTN2")
+      (class "Default")
+      (node
+        (ref "BTN2")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "U1")
+        (pin "3")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 4)
+      (name "BTN3")
+      (class "Default")
+      (node
+        (ref "BTN3")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "U1")
+        (pin "4")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 5)
+      (name "DOWN")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R9")
+        (pin "1")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 6)
+      (name "FIRE")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "6")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R4")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "U1")
+        (pin "6")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 7)
+      (name "GND")
+      (class "Default")
+      (node
+        (ref "BTN1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "BTN2")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "BTN3")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "C1")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "D1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "DOWN1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "H1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "H2")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "J1")
+        (pin "8")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "J2")
+        (pin "6")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "JUMP1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "LEFT1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R4")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R5")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R6")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "RAPID1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "RIGHT1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "U1")
+        (pin "14")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "UP1")
+        (pin "1")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 8)
+      (name "LEFT")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "3")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R10")
+        (pin "1")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 9)
+      (name "N$1")
+      (class "Default")
+      (node
+        (ref "R8")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "UP1")
+        (pin "2")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 10)
+      (name "N$2")
+      (class "Default")
+      (node
+        (ref "DOWN1")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R9")
+        (pin "2")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 11)
+      (name "N$3")
+      (class "Default")
+      (node
+        (ref "LEFT1")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R10")
+        (pin "2")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 12)
+      (name "N$4")
+      (class "Default")
+      (node
+        (ref "R11")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "RIGHT1")
+        (pin "2")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 13)
+      (name "N$5")
+      (class "Default")
+      (node
+        (ref "JUMP1")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R7")
+        (pin "2")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 14)
+      (name "N$6")
+      (class "Default")
+      (node
+        (ref "D1")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R3")
+        (pin "2")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 15)
+      (name "OUT_BTN2")
+      (class "Default")
+      (node
+        (ref "R2")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "U1")
+        (pin "7")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 16)
+      (name "OUT_BTN3")
+      (class "Default")
+      (node
+        (ref "R1")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "U1")
+        (pin "8")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 17)
+      (name "POTX")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "5")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R5")
+        (pin "1")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 18)
+      (name "POTY")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "9")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R2")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R6")
+        (pin "1")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 19)
+      (name "RAPID")
+      (class "Default")
+      (node
+        (ref "R3")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "RAPID1")
+        (pin "2")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "U1")
+        (pin "5")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 20)
+      (name "RESET")
+      (class "Default")
+      (node
+        (ref "J2")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "U1")
+        (pin "10")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 21)
+      (name "RIGHT")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "4")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R11")
+        (pin "1")
+        (pintype "UNSPECIFIED")))
+    (net
+      (code 22)
+      (name "UP")
+      (class "Default")
+      (node
+        (ref "J1")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R7")
+        (pin "1")
+        (pintype "UNSPECIFIED"))
+      (node
+        (ref "R8")
+        (pin "1")
+        (pintype "UNSPECIFIED")))))
